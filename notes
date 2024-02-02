@@ -1,0 +1,19 @@
+1.how to write 'Hello wrold program is js'   
+
+   <script> 
+    const heading = document.createElement("h1");
+    heading.innerHTML ="Hello World !! from Js";
+    const root = document.getElementById("root");
+    root.appendChild(heading);
+    </script>
+
+2.How to write Hello world program in React?
+
+<script>
+const heading = React.createElement("h1",{},"Hello world from React");
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+root.render(heading);
+</script>
+
